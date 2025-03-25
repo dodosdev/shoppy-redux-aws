@@ -11,7 +11,7 @@ export const getLogout = () => (dispatch) => {
 }
 
 export const getLogin = (formData) => async(dispatch) => {    
-    const url = 'http://localhost:9000/member/login';
+    const url = 'http://52.78.206.153:9000/member/login';
     const data = formData;
 
     const loginResult = await axiosPost({url, data});
